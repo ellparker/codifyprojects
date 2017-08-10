@@ -1,0 +1,29 @@
+.navbar-nav {
+    display:table;
+    width:100%;
+    margin: 0;
+
+}
+.navbar-nav > li {
+    float:none;
+    display:table-cell;
+    text-align:center;
+    text-decoration-color: white;
+    font-size: medium;
+    }
+
+    .nav.navbar-nav li a {
+    color: white;
+
+    }
+
+
+
+
+
+    .body {
+        background-image: url("image\iphones.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center";
+    }
