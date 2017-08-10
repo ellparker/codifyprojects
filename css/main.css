@@ -27,3 +27,7 @@
         background-attachment: fixed;
         background-position: center";
     }
+
+    @media(min-width:768px) {
+     .navbar-collapse {
+      width: auto;
