@@ -9,36 +9,24 @@
     </head>
 
     <body>
-
-      <nav class="navbar navbar-inverse navbar-fixed-top">
-        <div class="container-fluid">
-
-          <ul class="nav navbar-nav">
-            <li><a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
-            <li><a href="#">Mac</a></li>
-            <li><a href="#">iPad</a></li>
-            <li><a href="#">iPhone</a></li>
-            <li><a href="#">Watch</a></li>
-            <li><a href="#">TV</a></li>
-            <li><a href="#">Music</a></li>
-            <li><a href="#">Support</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></a></li>
-        </ul>
-        </div>
-      </nav>
-      <br>
-      <br>
+<!-- inverse navbar fixed to top of page-->
       <div class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
 
+<!-- this button dropdown menu shows up far right when screen is small-->
+        <ul class="nav navbar-nav">
+          <button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse" style="float: left;">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            </button>
 
-      <ul class="nav nav-pills">
+<a class="navbar-brand hidden-lg" href="#"><i class="fa fa-apple" aria-hidden="true"></i></a>
 
-        <li role="presentation" class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-            <span class="glyphicon glyphicon-menu-hamburger"></span>
-          </a>
-          <ul class="dropdown-menu">
+        </ul>
+
+          <div class="collapse navbar-collapse navHeaderCollapse">
+<!-- these are the menu items that will show when dropdown menu is toggled-->
+          <ul class="nav navbar-nav hidden-lg">
             <li><a href="#">Mac</a></li>
             <li><a href="#">iPad</a></li>
             <li><a href="#">iPhone</a></li>
@@ -46,14 +34,30 @@
             <li><a href="#">TV</a></li>
             <li><a href="#">Music</a></li>
             <li><a href="#">Support</a></li>
-            <li><a href="#"><span class="glyphicon glyphicon-search"></span>Search apple.com</a></li>
-
+            <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span>  Search apple.com</a></li>
           </ul>
-        </li>
+
+      </div>
+      </div>
+<!-- created separate navbar for large screen -->
+  <div class="collapse navbar-collapse navHeaderFull visible-lg">
+
+      <ul class="nav navbar-nav visible-lg">
         <li><a href="#"><i class="fa fa-apple" aria-hidden="true"></i></a></li>
+        <li><a href="#">Mac</a></li>
+        <li><a href="#">iPad</a></li>
+        <li><a href="#">iPhone</a></li>
+        <li><a href="#">Watch</a></li>
+        <li><a href="#">TV</a></li>
+        <li><a href="#">Music</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#"><span class="glyphicon glyphicon-search" aria-hidden="true"></span></a></li>
         <li><a href="#"><span class="glyphicon glyphicon-phone" aria-hidden="true"></span></a></li>
       </ul>
-        </div>
+
+  </div>
+
+
 
 
 
